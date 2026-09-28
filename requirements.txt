@@ -1,0 +1,6 @@
+# Install using:
+# pip install -r requirements.txt
+
+streamlit
+pypdf
+ollama
