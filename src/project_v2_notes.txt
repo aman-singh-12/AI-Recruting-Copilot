@@ -1,0 +1,58 @@
+AI Recruiting Copilot - Version 2 Ideas
+
+Current Version:
+- Resume Parsing
+- JD Parsing
+- Skill Matching
+- ATS Score
+- Missing Skills
+- Llama3 Feedback
+
+Problems Identified:
+1. Exact keyword matching only
+2. No education matching
+3. No student-status matching
+4. No project matching
+5. No research matching
+6. No semantic skill relationships
+
+Desired Future Features:
+- Machine Learning ↔ Scikit-Learn matching
+- Deep Learning ↔ TensorFlow/PyTorch matching
+- Education scoring
+- Project scoring
+- Research scoring
+- Whole-resume vs whole-JD analysis
+
+and remove temporary debug section from app.py:
+st.subheader("DEBUG - Resume Data") # inspect found/not found sections of resume
+st.write(resume_data)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+st.subheader("DEBUG - Resume Data")
+st.write(resume_data)
+
+Remove Ollama debug prints from llm_recommender.py
+print("Entered generate_llm_feedback()")
+print("Sending prompt to Ollama...")
+print("Response received from Ollama")
+Remove:
+st.write("Generating AI feedback...")
+st.write("AI feedback received.")
+
+-----------------------------------------------
+Version 2 Goals
+
+1. Smarter Skill Matching
+2. Education Matching
+3. Student Status Matching
+4. Project Matching
+5. Research Matching
+6. Whole Resume vs Whole JD Analysis
+........................................
+Version 2
+├─ Semantic Skill Matching
+├─ Education Matching
+├─ Student Eligibility Matching
+├─ Project Matching
+├─ Research Matching
+└─ Whole Resume vs Whole JD Analysis

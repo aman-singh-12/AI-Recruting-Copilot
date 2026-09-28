@@ -1,0 +1,15 @@
+Python Developer
+
+Required Skills:
+Python
+FastAPI
+Docker
+AWS
+Git
+SQL
+
+Experience:
+2+ years
+
+Education:
+Bachelor's Degree in Computer Science
